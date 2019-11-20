@@ -6,6 +6,7 @@ CREATE TABLE [dbo].[CustomerCards1]
 [ExpiryDate] [datetime] NOT NULL,
 [StartDate] [datetime] NULL,
 [IssueNumber] [int] NULL,
-[NameOnCard] [nvarchar] (128) COLLATE Latin1_General_CI_AS NOT NULL
+[NameOnCard] [nvarchar] (128) COLLATE Latin1_General_CI_AS NOT NULL,
+[ChipAndPin] [int] NULL
 ) ON [PRIMARY]
 GO
